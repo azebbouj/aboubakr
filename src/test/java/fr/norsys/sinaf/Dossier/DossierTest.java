@@ -1,32 +1,18 @@
 package fr.norsys.sinaf.Dossier;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
 
 /**
  * Unit test for simple App.
  */
 public class DossierTest 
-    extends TestCase
+ 
 {
    
-    public DossierTest( String testName )
-    {
-        super( testName );
-    }
-
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( DossierTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
+	@Test
     public void DossierApp()
     {
         assertTrue( true );
