@@ -2,7 +2,6 @@ language: java
 cache:
   directories:
   - "$HOME/.cache"
-  - "HOME/.sonar/cache"
 
 addons:
   sonarcloud:
