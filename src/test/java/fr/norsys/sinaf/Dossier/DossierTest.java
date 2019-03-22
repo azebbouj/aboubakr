@@ -8,10 +8,7 @@ import org.junit.Test;
 /**
  * Unit test for simple App.
  */
-public class DossierTest 
- 
-{
-   
+public class DossierTest{
 	@Test
     public void DossierApp()
     {
