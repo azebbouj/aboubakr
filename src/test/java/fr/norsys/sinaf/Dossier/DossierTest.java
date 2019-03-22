@@ -10,11 +10,7 @@ import junit.framework.TestSuite;
 public class DossierTest 
     extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
+   
     public DossierTest( String testName )
     {
         super( testName );
