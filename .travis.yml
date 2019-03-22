@@ -1,15 +1,9 @@
 language: java
-cache:
-  directories:
-  - "$HOME/.cache"
-
 addons:
   sonarcloud:
     organization: "azebbouj-github"
     token:
         secure: 076161a88a36eddf678e56bc4d6b129d1b84eb32
-jdk:
-  - oraclejdk8
 
 script:
    - sonar-scanner
